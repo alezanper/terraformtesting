@@ -1,11 +1,11 @@
-#terraform {
-#  required_version = ">= 0.11"
-#  backend "azurerm" {
-#    storage_account_name = "diage875857206b10c9d"
-#    container_name        = "containestatus"
-#    key                   = "terraform.tfstate"
-#  }
-#}
+terraform {
+  required_version = ">= 0.11"
+  backend "azurerm" {
+    storage_account_name = "diage875857206b10c9d"
+    container_name        = "containestatus"
+    key                   = "terraform.tfstate"
+  }
+}
 
 # Configure the Microsoft Azure Provider
 provider "azurerm" {
